@@ -7,7 +7,7 @@
     },
     {
       "categoryId": "cat_filmes_24h",
-      "categoryName": "🍿 Pluto TV Filmes & Cinema",
+      "categoryName": "🍿 Filmes & Cinema 24h",
       "type": "live"
     },
     {
@@ -32,7 +32,7 @@
     },
     {
       "categoryId": "cat_musica_vida",
-      "categoryName": "🎵 Música, Entretenimento & Estilo",
+      "categoryName": "🎵 Variedades, Culinária & Estilo",
       "type": "live"
     },
     {
@@ -232,6 +232,13 @@
       "epgChannelId": "pluto_misterios"
     },
     {
+      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6075c50cff7cb800078b5494/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
+      "name": "South Park 24h Dublado",
+      "streamIcon": "https://images.pluto.tv/channels/6075c50cff7cb800078b5494/colorLogoPNG.png",
+      "categoryId": "cat_series_24h",
+      "epgChannelId": "pluto_southpark"
+    },
+    {
       "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01a75043bf700072e9a26/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
       "name": "Pluto TV Anime (Dublado)",
       "streamIcon": "https://images.pluto.tv/channels/5fa01a75043bf700072e9a26/colorLogoPNG.png",
@@ -239,8 +246,22 @@
       "epgChannelId": "pluto_anime"
     },
     {
+      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01ab4db9fe8000738d21c/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
+      "name": "Naruto 24h Dublado",
+      "streamIcon": "https://images.pluto.tv/channels/5fa01ab4db9fe8000738d21c/colorLogoPNG.png",
+      "categoryId": "cat_kids_animacao",
+      "epgChannelId": "pluto_naruto"
+    },
+    {
+      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6075c57fff7cb800078b5497/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
+      "name": "Yu-Gi-Oh! 24h Dublado",
+      "streamIcon": "https://images.pluto.tv/channels/6075c57fff7cb800078b5497/colorLogoPNG.png",
+      "categoryId": "cat_kids_animacao",
+      "epgChannelId": "pluto_yugioh"
+    },
+    {
       "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01df215a3bb00078fca02/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Pluto TV Nick Clássicos",
+      "name": "Bob Esponja & Nick Clássicos 24h",
       "streamIcon": "https://images.pluto.tv/channels/5fa01df215a3bb00078fca02/colorLogoPNG.png",
       "categoryId": "cat_kids_animacao",
       "epgChannelId": "pluto_nick"
@@ -260,11 +281,11 @@
       "epgChannelId": "pluto_junior"
     },
     {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6075c57fff7cb800078b5497/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Yu-Gi-Oh! 24h Dublado",
-      "streamIcon": "https://images.pluto.tv/channels/6075c57fff7cb800078b5497/colorLogoPNG.png",
+      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6075c5b3ff7cb800078b549a/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
+      "name": "Tokusato 24h (Jaspion, Jiban & Changeman)",
+      "streamIcon": "https://images.pluto.tv/channels/6075c5b3ff7cb800078b549a/colorLogoPNG.png",
       "categoryId": "cat_kids_animacao",
-      "epgChannelId": "pluto_yugioh"
+      "epgChannelId": "pluto_tokusato"
     },
     {
       "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01f5683664d0007ad6e13/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
@@ -317,10 +338,17 @@
     },
     {
       "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa0214a043bf700072e9a44/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Pluto TV Estilo & Gastronomia",
+      "name": "Tastemade & Gastronomia Brasil",
       "streamIcon": "https://images.pluto.tv/channels/5fa0214a043bf700072e9a44/colorLogoPNG.png",
       "categoryId": "cat_musica_vida",
       "epgChannelId": "pluto_gastronomia"
+    },
+    {
+      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6075c602ff7cb800078b549d/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
+      "name": "FailArmy Brasil (Vídeos Mais Engraçados)",
+      "streamIcon": "https://images.pluto.tv/channels/6075c602ff7cb800078b549d/colorLogoPNG.png",
+      "categoryId": "cat_musica_vida",
+      "epgChannelId": "pluto_failarmy"
     },
     {
       "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa0219f15a3bb00078fca14/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
