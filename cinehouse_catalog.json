@@ -21,30 +21,20 @@
       "type": "live"
     },
     {
-      "categoryId": "cat_documentarios",
-      "categoryName": "🌍 Documentários & Realidade",
+      "categoryId": "cat_variedades",
+      "categoryName": "🍳 Variedades & Reality 24h",
       "type": "live"
     },
     {
       "categoryId": "cat_esportes",
       "categoryName": "⚽ Esportes & Ação",
       "type": "live"
-    },
-    {
-      "categoryId": "cat_musica_vida",
-      "categoryName": "🎵 Variedades, Culinária & Estilo",
-      "type": "live"
-    },
-    {
-      "categoryId": "cat_vod_cinema",
-      "categoryName": "🎥 Filmes & Clássicos do Cinema",
-      "type": "vod"
     }
   ],
   "liveStreams": [
     {
       "streamId": "https://tvbrasil-hls.ebc.com.br/hls/tvbrasil.m3u8",
-      "name": "TV Brasil (HD Oficial EBC)",
+      "name": "TV Brasil (1080p Oficial EBC)",
       "streamIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/TV_Brasil_logo_2019.svg/512px-TV_Brasil_logo_2019.svg.png",
       "categoryId": "cat_abertos",
       "epgChannelId": "tvbrasil"
@@ -71,373 +61,198 @@
       "epgChannelId": "jpnews"
     },
     {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa0209ba4221a00076a9194/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Euronews em Português 24h",
-      "streamIcon": "https://images.pluto.tv/channels/5fa0209ba4221a00076a9194/colorLogoPNG.png",
-      "categoryId": "cat_abertos",
-      "epgChannelId": "euronews"
-    },
-    {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa02058043bf700072e9a3c/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Pluto TV Notícias 24h",
-      "streamIcon": "https://images.pluto.tv/channels/5fa02058043bf700072e9a3c/colorLogoPNG.png",
-      "categoryId": "cat_abertos",
-      "epgChannelId": "pluto_noticias"
-    },
-    {
-      "streamId": "https://redevida.fabricahost.com.br/redevida/smil:redevida.smil/playlist.m3u8",
-      "name": "Rede Vida (HD Oficial)",
-      "streamIcon": "https://upload.wikimedia.org/wikipedia/pt/thumb/e/e7/Logotipo_da_Rede_Vida.png/512px-Logotipo_da_Rede_Vida.png",
-      "categoryId": "cat_abertos",
-      "epgChannelId": "redevida"
-    },
-    {
-      "streamId": "https://canalgov-hls.ebc.com.br/hls/canalgov.m3u8",
-      "name": "Canal Gov (Transmissão Oficial EBC)",
-      "streamIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Canal_Gov_logo.png/512px-Canal_Gov_logo.png",
-      "categoryId": "cat_abertos",
-      "epgChannelId": "canalgov"
-    },
-    {
-      "streamId": "https://stream.senado.leg.br/live/senado1/playlist.m3u8",
-      "name": "TV Senado (Transmissão Oficial)",
-      "streamIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/TV_Senado_logo.png/512px-TV_Senado_logo.png",
+      "streamId": "https://stream1.senado.gov.br/hls/aovivo/tv/index.m3u8",
+      "name": "TV Senado (Oficial)",
+      "streamIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/TV_Senado_logo.png/512px-TV_Senado_logo.png",
       "categoryId": "cat_abertos",
       "epgChannelId": "tvsenado"
     },
     {
-      "streamId": "https://stream.camara.leg.br/live/camara1/playlist.m3u8",
-      "name": "TV Câmara (Transmissão Oficial)",
-      "streamIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/TV_C%C3%A2mara_logo.png/512px-TV_C%C3%A2mara_logo.png",
+      "streamId": "https://streaming.camara.leg.br/live/tv1.m3u8",
+      "name": "TV Câmara (Oficial)",
+      "streamIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/TV_C%C3%A2mara_logo.png/512px-TV_C%C3%A2mara_logo.png",
       "categoryId": "cat_abertos",
       "epgChannelId": "tvcamara"
     },
     {
-      "streamId": "https://stream.tvjustica.jus.br/live/tvjustica/playlist.m3u8",
-      "name": "TV Justiça (STF Oficial)",
-      "streamIcon": "https://upload.wikimedia.org/wikipedia/pt/thumb/7/7b/Logo_TV_Justi%C3%A7a.png/512px-Logo_TV_Justi%C3%A7a.png",
+      "streamId": "https://redevida.live.netfly.tv.br/tv/redevida/index.m3u8",
+      "name": "Rede Vida (Oficial)",
+      "streamIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Rede_Vida_logo_2017.png/512px-Rede_Vida_logo_2017.png",
+      "categoryId": "cat_abertos",
+      "epgChannelId": "redevida"
+    },
+    {
+      "streamId": "https://cancaonova-lh.akamaihd.net/i/tvcn_br@113941/master.m3u8",
+      "name": "Canção Nova (HD)",
+      "streamIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Can%C3%A7%C3%A3o_Nova_logo.png/512px-Can%C3%A7%C3%A3o_Nova_logo.png",
+      "categoryId": "cat_abertos",
+      "epgChannelId": "cancaonova"
+    },
+    {
+      "streamId": "https://tvjustica-hls.ebc.com.br/hls/tvjustica.m3u8",
+      "name": "TV Justiça (Oficial)",
+      "streamIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/TV_Justi%C3%A7a_logo.png/512px-TV_Justi%C3%A7a_logo.png",
       "categoryId": "cat_abertos",
       "epgChannelId": "tvjustica"
     },
     {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa016aa83664d0007ad6df1/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Pluto TV Cine Sucessos",
+      "streamId": "https://canaldoboi-hls.ebc.com.br/hls/canaldoboi.m3u8",
+      "name": "Canal Rural & Agro",
+      "streamIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Canal_Rural_logo.png/512px-Canal_Rural_logo.png",
+      "categoryId": "cat_abertos",
+      "epgChannelId": "canalrural"
+    },
+
+    {
+      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f9730c45aa70500072b22ec/master.m3u8?deviceType=web&deviceMake=Chrome&deviceModel=web",
+      "name": "Pluto TV Cine Sucessos 24h",
+      "streamIcon": "https://images.pluto.tv/channels/5f9730c45aa70500072b22ec/colorLogoPNG.png",
+      "categoryId": "cat_filmes_24h",
+      "epgChannelId": "pluto_cinesucessos"
+    },
+    {
+      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa016aa83664d0007ad6df1/master.m3u8?deviceType=web&deviceMake=Chrome&deviceModel=web",
+      "name": "Pluto TV Cine Ação 24h",
       "streamIcon": "https://images.pluto.tv/channels/5fa016aa83664d0007ad6df1/colorLogoPNG.png",
       "categoryId": "cat_filmes_24h",
-      "epgChannelId": "pluto_sucessos"
+      "epgChannelId": "pluto_cineacao"
     },
     {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01726a4221a00076a9172/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Pluto TV Filmes Ação",
-      "streamIcon": "https://images.pluto.tv/channels/5fa01726a4221a00076a9172/colorLogoPNG.png",
-      "categoryId": "cat_filmes_24h",
-      "epgChannelId": "pluto_acao"
-    },
-    {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01815db9fe8000738d216/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Pluto TV Cine Comédia",
+      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01815db9fe8000738d216/master.m3u8?deviceType=web&deviceMake=Chrome&deviceModel=web",
+      "name": "Pluto TV Comédia 24h",
       "streamIcon": "https://images.pluto.tv/channels/5fa01815db9fe8000738d216/colorLogoPNG.png",
       "categoryId": "cat_filmes_24h",
       "epgChannelId": "pluto_comedia"
     },
     {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa018b315a3bb00078fc9e0/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Pluto TV Cine Drama",
-      "streamIcon": "https://images.pluto.tv/channels/5fa018b315a3bb00078fc9e0/colorLogoPNG.png",
-      "categoryId": "cat_filmes_24h",
-      "epgChannelId": "pluto_drama"
-    },
-    {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa0192f15a3bb00078fc9e8/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Pluto TV Cine Terror",
+      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa0192f15a3bb00078fc9e8/master.m3u8?deviceType=web&deviceMake=Chrome&deviceModel=web",
+      "name": "Pluto TV Terror 24h",
       "streamIcon": "https://images.pluto.tv/channels/5fa0192f15a3bb00078fc9e8/colorLogoPNG.png",
       "categoryId": "cat_filmes_24h",
       "epgChannelId": "pluto_terror"
     },
     {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa019b3a4221a00076a917a/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
+      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa0188615a3bb00078fc9e6/master.m3u8?deviceType=web&deviceMake=Chrome&deviceModel=web",
       "name": "Pluto TV Ficção Científica",
-      "streamIcon": "https://images.pluto.tv/channels/5fa019b3a4221a00076a917a/colorLogoPNG.png",
+      "streamIcon": "https://images.pluto.tv/channels/5fa0188615a3bb00078fc9e6/colorLogoPNG.png",
       "categoryId": "cat_filmes_24h",
       "epgChannelId": "pluto_scifi"
     },
     {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01a0a043bf700072e9a22/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Pluto TV Cine Clássicos",
-      "streamIcon": "https://images.pluto.tv/channels/5fa01a0a043bf700072e9a22/colorLogoPNG.png",
-      "categoryId": "cat_filmes_24h",
-      "epgChannelId": "pluto_classicos"
-    },
-    {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa017a6db9fe8000738d212/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Pluto TV Filmes Nacionais",
-      "streamIcon": "https://images.pluto.tv/channels/5fa017a6db9fe8000738d212/colorLogoPNG.png",
-      "categoryId": "cat_filmes_24h",
-      "epgChannelId": "pluto_nacional"
-    },
-    {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6075c3f9ff7cb800078b548b/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Pluto TV Cine Romance",
-      "streamIcon": "https://images.pluto.tv/channels/6075c3f9ff7cb800078b548b/colorLogoPNG.png",
-      "categoryId": "cat_filmes_24h",
-      "epgChannelId": "pluto_romance"
-    },
-    {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6075c35eff7cb800078b5488/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Pluto TV Cine Suspense",
-      "streamIcon": "https://images.pluto.tv/channels/6075c35eff7cb800078b5488/colorLogoPNG.png",
+      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa018db043bf700072e9a22/master.m3u8?deviceType=web&deviceMake=Chrome&deviceModel=web",
+      "name": "Pluto TV Suspense 24h",
+      "streamIcon": "https://images.pluto.tv/channels/5fa018db043bf700072e9a22/colorLogoPNG.png",
       "categoryId": "cat_filmes_24h",
       "epgChannelId": "pluto_suspense"
     },
+
     {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01b3383664d0007ad6e05/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Pluto TV Séries",
-      "streamIcon": "https://images.pluto.tv/channels/5fa01b3383664d0007ad6e05/colorLogoPNG.png",
+      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa0198083664d0007ad6df3/master.m3u8?deviceType=web&deviceMake=Chrome&deviceModel=web",
+      "name": "Pluto TV Séries 24h",
+      "streamIcon": "https://images.pluto.tv/channels/5fa0198083664d0007ad6df3/colorLogoPNG.png",
       "categoryId": "cat_series_24h",
       "epgChannelId": "pluto_series"
     },
     {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01b97a4221a00076a9184/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Pluto TV Séries Criminais",
-      "streamIcon": "https://images.pluto.tv/channels/5fa01b97a4221a00076a9184/colorLogoPNG.png",
-      "categoryId": "cat_series_24h",
-      "epgChannelId": "pluto_series_crime"
-    },
-    {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01c1015a3bb00078fc9f4/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Pluto TV Retro Séries",
-      "streamIcon": "https://images.pluto.tv/channels/5fa01c1015a3bb00078fc9f4/colorLogoPNG.png",
+      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa019d1db9fe8000738d218/master.m3u8?deviceType=web&deviceMake=Chrome&deviceModel=web",
+      "name": "Pluto TV Séries Retrô",
+      "streamIcon": "https://images.pluto.tv/channels/5fa019d1db9fe8000738d218/colorLogoPNG.png",
       "categoryId": "cat_series_24h",
       "epgChannelId": "pluto_retro"
     },
     {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6075c46dff7cb800078b548e/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Jeannie é um Gênio 24h",
-      "streamIcon": "https://images.pluto.tv/channels/6075c46dff7cb800078b548e/colorLogoPNG.png",
+      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa0172e043bf700072e9a20/master.m3u8?deviceType=web&deviceMake=Chrome&deviceModel=web",
+      "name": "Pluto TV Investigações 24h",
+      "streamIcon": "https://images.pluto.tv/channels/5fa0172e043bf700072e9a20/colorLogoPNG.png",
       "categoryId": "cat_series_24h",
-      "epgChannelId": "pluto_jeannie"
+      "epgChannelId": "pluto_investiga"
     },
     {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6075c4a5ff7cb800078b5491/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "A Feiticeira 24h",
-      "streamIcon": "https://images.pluto.tv/channels/6075c4a5ff7cb800078b5491/colorLogoPNG.png",
+      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01a1c83664d0007ad6df5/master.m3u8?deviceType=web&deviceMake=Chrome&deviceModel=web",
+      "name": "Comedy Central Pluto TV",
+      "streamIcon": "https://images.pluto.tv/channels/5fa01a1c83664d0007ad6df5/colorLogoPNG.png",
       "categoryId": "cat_series_24h",
-      "epgChannelId": "pluto_feiticeira"
+      "epgChannelId": "pluto_comedy"
     },
+
     {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01c7a83664d0007ad6e0b/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Mistérios sem Solução 24h",
-      "streamIcon": "https://images.pluto.tv/channels/5fa01c7a83664d0007ad6e0b/colorLogoPNG.png",
-      "categoryId": "cat_series_24h",
-      "epgChannelId": "pluto_misterios"
-    },
-    {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6075c50cff7cb800078b5494/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "South Park 24h Dublado",
-      "streamIcon": "https://images.pluto.tv/channels/6075c50cff7cb800078b5494/colorLogoPNG.png",
-      "categoryId": "cat_series_24h",
-      "epgChannelId": "pluto_southpark"
-    },
-    {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01a75043bf700072e9a26/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Pluto TV Anime (Dublado)",
+      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01a75043bf700072e9a26/master.m3u8?deviceType=web&deviceMake=Chrome&deviceModel=web",
+      "name": "Pluto TV Anime 24h (Naruto & Death Note)",
       "streamIcon": "https://images.pluto.tv/channels/5fa01a75043bf700072e9a26/colorLogoPNG.png",
       "categoryId": "cat_kids_animacao",
       "epgChannelId": "pluto_anime"
     },
     {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01ab4db9fe8000738d21c/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Naruto 24h Dublado",
-      "streamIcon": "https://images.pluto.tv/channels/5fa01ab4db9fe8000738d21c/colorLogoPNG.png",
+      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01b6c043bf700072e9a28/master.m3u8?deviceType=web&deviceMake=Chrome&deviceModel=web",
+      "name": "Pluto TV Kids 24h",
+      "streamIcon": "https://images.pluto.tv/channels/5fa01b6c043bf700072e9a28/colorLogoPNG.png",
       "categoryId": "cat_kids_animacao",
-      "epgChannelId": "pluto_naruto"
+      "epgChannelId": "pluto_kids"
     },
     {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6075c57fff7cb800078b5497/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Yu-Gi-Oh! 24h Dublado",
-      "streamIcon": "https://images.pluto.tv/channels/6075c57fff7cb800078b5497/colorLogoPNG.png",
-      "categoryId": "cat_kids_animacao",
-      "epgChannelId": "pluto_yugioh"
-    },
-    {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01df215a3bb00078fca02/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Bob Esponja & Nick Clássicos 24h",
+      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01df215a3bb00078fca02/master.m3u8?deviceType=web&deviceMake=Chrome&deviceModel=web",
+      "name": "Pluto TV Nick Clássicos (Bob Esponja)",
       "streamIcon": "https://images.pluto.tv/channels/5fa01df215a3bb00078fca02/colorLogoPNG.png",
       "categoryId": "cat_kids_animacao",
       "epgChannelId": "pluto_nick"
     },
     {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01e74a4221a00076a918a/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Pluto TV Kids",
-      "streamIcon": "https://images.pluto.tv/channels/5fa01e74a4221a00076a918a/colorLogoPNG.png",
-      "categoryId": "cat_kids_animacao",
-      "epgChannelId": "pluto_kids"
-    },
-    {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01edb043bf700072e9a34/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
+      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01bb9db9fe8000738d21c/master.m3u8?deviceType=web&deviceMake=Chrome&deviceModel=web",
       "name": "Pluto TV Júnior",
-      "streamIcon": "https://images.pluto.tv/channels/5fa01edb043bf700072e9a34/colorLogoPNG.png",
+      "streamIcon": "https://images.pluto.tv/channels/5fa01bb9db9fe8000738d21c/colorLogoPNG.png",
       "categoryId": "cat_kids_animacao",
       "epgChannelId": "pluto_junior"
     },
+
     {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6075c5b3ff7cb800078b549a/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Tokusato 24h (Jaspion, Jiban & Changeman)",
-      "streamIcon": "https://images.pluto.tv/channels/6075c5b3ff7cb800078b549a/colorLogoPNG.png",
-      "categoryId": "cat_kids_animacao",
-      "epgChannelId": "pluto_tokusato"
+      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01c1015a3bb00078fc9ee/master.m3u8?deviceType=web&deviceMake=Chrome&deviceModel=web",
+      "name": "MasterChef Brasil 24h",
+      "streamIcon": "https://images.pluto.tv/channels/5fa01c1015a3bb00078fc9ee/colorLogoPNG.png",
+      "categoryId": "cat_variedades",
+      "epgChannelId": "pluto_masterchef"
     },
     {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01f5683664d0007ad6e13/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Pluto TV Natureza",
-      "streamIcon": "https://images.pluto.tv/channels/5fa01f5683664d0007ad6e13/colorLogoPNG.png",
-      "categoryId": "cat_documentarios",
-      "epgChannelId": "pluto_natureza"
+      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01e4483664d0007ad6dfb/master.m3u8?deviceType=web&deviceMake=Chrome&deviceModel=web",
+      "name": "MTV Pluto TV 24h",
+      "streamIcon": "https://images.pluto.tv/channels/5fa01e4483664d0007ad6dfb/colorLogoPNG.png",
+      "categoryId": "cat_variedades",
+      "epgChannelId": "pluto_mtv"
     },
     {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01fa815a3bb00078fca08/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Pluto TV Investigação",
-      "streamIcon": "https://images.pluto.tv/channels/5fa01fa815a3bb00078fca08/colorLogoPNG.png",
-      "categoryId": "cat_documentarios",
-      "epgChannelId": "pluto_investigacao"
+      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01cb7db9fe8000738d21e/master.m3u8?deviceType=web&deviceMake=Chrome&deviceModel=web",
+      "name": "FailArmy Brasil 24h",
+      "streamIcon": "https://images.pluto.tv/channels/5fa01cb7db9fe8000738d21e/colorLogoPNG.png",
+      "categoryId": "cat_variedades",
+      "epgChannelId": "pluto_failarmy"
     },
     {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa0200cdb9fe8000738d224/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Pluto TV Ciência",
-      "streamIcon": "https://images.pluto.tv/channels/5fa0200cdb9fe8000738d224/colorLogoPNG.png",
-      "categoryId": "cat_documentarios",
-      "epgChannelId": "pluto_ciencia"
+      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01d0a043bf700072e9a2c/master.m3u8?deviceType=web&deviceMake=Chrome&deviceModel=web",
+      "name": "The Pet Collective 24h",
+      "streamIcon": "https://images.pluto.tv/channels/5fa01d0a043bf700072e9a2c/colorLogoPNG.png",
+      "categoryId": "cat_variedades",
+      "epgChannelId": "pluto_pet"
     },
+
     {
-      "streamId": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8",
-      "name": "Red Bull TV (Oficial HD)",
-      "streamIcon": "https://images.pluto.tv/channels/5c3384fcfa42f61a1215b22b/colorLogoPNG.png",
-      "categoryId": "cat_esportes",
-      "epgChannelId": "redbulltv"
-    },
-    {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa02235a4221a00076a91a0/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Pluto TV Esportes",
-      "streamIcon": "https://images.pluto.tv/channels/5fa02235a4221a00076a91a0/colorLogoPNG.png",
+      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01d5115a3bb00078fc9fc/master.m3u8?deviceType=web&deviceMake=Chrome&deviceModel=web",
+      "name": "Pluto TV Esportes 24h",
+      "streamIcon": "https://images.pluto.tv/channels/5fa01d5115a3bb00078fc9fc/colorLogoPNG.png",
       "categoryId": "cat_esportes",
       "epgChannelId": "pluto_esportes"
     },
     {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa02288043bf700072e9a4e/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
+      "streamId": "https://fueltv-live.akamaized.net/hls/live/2034939/fueltv/master.m3u8",
       "name": "Fuel TV (Esportes Radicais)",
-      "streamIcon": "https://images.pluto.tv/channels/5fa02288043bf700072e9a4e/colorLogoPNG.png",
+      "streamIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Fuel_TV_logo.png/512px-Fuel_TV_logo.png",
       "categoryId": "cat_esportes",
       "epgChannelId": "fueltv"
     },
     {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa020e983664d0007ad6e1d/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "MTV Pluto TV Brasil",
-      "streamIcon": "https://images.pluto.tv/channels/5fa020e983664d0007ad6e1d/colorLogoPNG.png",
-      "categoryId": "cat_musica_vida",
-      "epgChannelId": "pluto_mtv"
-    },
-    {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa0214a043bf700072e9a44/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Tastemade & Gastronomia Brasil",
-      "streamIcon": "https://images.pluto.tv/channels/5fa0214a043bf700072e9a44/colorLogoPNG.png",
-      "categoryId": "cat_musica_vida",
-      "epgChannelId": "pluto_gastronomia"
-    },
-    {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/6075c602ff7cb800078b549d/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "FailArmy Brasil (Vídeos Mais Engraçados)",
-      "streamIcon": "https://images.pluto.tv/channels/6075c602ff7cb800078b549d/colorLogoPNG.png",
-      "categoryId": "cat_musica_vida",
-      "epgChannelId": "pluto_failarmy"
-    },
-    {
-      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa0219f15a3bb00078fca14/master.m3u8?deviceType=web&deviceMake=web&deviceModel=web",
-      "name": "Pluto TV Shows & Festivais",
-      "streamIcon": "https://images.pluto.tv/channels/5fa0219f15a3bb00078fca14/colorLogoPNG.png",
-      "categoryId": "cat_musica_vida",
-      "epgChannelId": "pluto_festivais"
-    }
-  ],
-  "vodStreams": [
-    {
-      "streamId": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
-      "name": "Lágrimas de Aço (Ficção Científica)",
-      "streamIcon": "https://m.media-amazon.com/images/M/MV5BMjA5OTg3NTU1NF5BMl5BanBnXkFtZTcwMjg4NDU4OA@@._V1_.jpg",
-      "categoryId": "cat_vod_cinema",
-      "rating": "8.4",
-      "rating5based": 4.2,
-      "containerExtension": "mp4",
-      "genre": "Ficção Científica"
-    },
-    {
-      "streamId": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-      "name": "Big Buck Bunny (Animação Família)",
-      "streamIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Big_buck_bunny_poster_big.jpg/512px-Big_buck_bunny_poster_big.jpg",
-      "categoryId": "cat_vod_cinema",
-      "rating": "8.8",
-      "rating5based": 4.4,
-      "containerExtension": "mp4",
-      "genre": "Animação"
-    },
-    {
-      "streamId": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
-      "name": "Sintel: Em Busca do Dragão (Ação & Fantasia)",
-      "streamIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Sintel_poster.jpg/512px-Sintel_poster.jpg",
-      "categoryId": "cat_vod_cinema",
-      "rating": "9.0",
-      "rating5based": 4.5,
-      "containerExtension": "mp4",
-      "genre": "Ação"
-    },
-    {
-      "streamId": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
-      "name": "Sonho dos Elefantes (Mistério & Aventura)",
-      "streamIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Elephants_Dream_poster.jpg/512px-Elephants_Dream_poster.jpg",
-      "categoryId": "cat_vod_cinema",
-      "rating": "8.0",
-      "rating5based": 4.0,
-      "containerExtension": "mp4",
-      "genre": "Aventura"
-    },
-    {
-      "streamId": "https://archive.org/download/night_of_the_living_dead_1968/night_of_the_living_dead_1968_512kb.mp4",
-      "name": "A Noite dos Mortos-Vivos (Clássico 1968)",
-      "streamIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Night_of_the_Living_Dead_%281968_poster%29.jpg/512px-Night_of_the_Living_Dead_%281968_poster%29.jpg",
-      "categoryId": "cat_vod_cinema",
-      "rating": "8.5",
-      "rating5based": 4.3,
-      "containerExtension": "mp4",
-      "genre": "Terror"
-    },
-    {
-      "streamId": "https://archive.org/download/TheGeneral_BusterKeaton_1926/TheGeneral_512kb.mp4",
-      "name": "A General (Comédia Clássica Buster Keaton)",
-      "streamIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/The_General_%281926_film_poster%29.jpg/512px-The_General_%281926_film_poster%29.jpg",
-      "categoryId": "cat_vod_cinema",
-      "rating": "8.9",
-      "rating5based": 4.5,
-      "containerExtension": "mp4",
-      "genre": "Comédia"
-    },
-    {
-      "streamId": "https://archive.org/download/Nosferatu_1922_HD/Nosferatu_1922_HD.mp4",
-      "name": "Nosferatu: Uma Sinfonia do Horror (1922)",
-      "streamIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Nosferatu_poster.jpg/512px-Nosferatu_poster.jpg",
-      "categoryId": "cat_vod_cinema",
-      "rating": "8.6",
-      "rating5based": 4.3,
-      "containerExtension": "mp4",
-      "genre": "Terror"
-    },
-    {
-      "streamId": "https://archive.org/download/Charade_1963/Charade_1963.mp4",
-      "name": "Charada (Cary Grant & Audrey Hepburn - Suspense)",
-      "streamIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Charade_1963_poster.jpg/512px-Charade_1963_poster.jpg",
-      "categoryId": "cat_vod_cinema",
-      "rating": "8.7",
-      "rating5based": 4.4,
-      "containerExtension": "mp4",
-      "genre": "Suspense"
+      "streamId": "https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5fa01da383664d0007ad6df7/master.m3u8?deviceType=web&deviceMake=Chrome&deviceModel=web",
+      "name": "Motorvision TV 24h",
+      "streamIcon": "https://images.pluto.tv/channels/5fa01da383664d0007ad6df7/colorLogoPNG.png",
+      "categoryId": "cat_esportes",
+      "epgChannelId": "motorvision"
     }
   ]
 }
